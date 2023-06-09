@@ -38,4 +38,60 @@ img {
   visibility: hidden;
 }
 
+.subscribe-img img {
+  width: 100%;
+}
+.subscribe-title {
+  color: hsl(234, 29%, 20%);
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+.subscribe-text {
+  color: hsl(235, 18%, 26%);
+  margin-bottom: 2rem;
+}
+.subscribe ul {
+  margin-bottom: 2rem;
+}
+.subscribe li {
+  margin-bottom: 1rem;
+  color: hsl(235, 18%, 26%);
+  list-style: none;
+  display: flex;
+  align-items: start;
+}
+.subscribe li img {
+  margin-right: 0.5rem;
+}
+.subscribe-form {
+  padding: 1.5rem;
+  color: hsl(234, 29%, 20%);
+}
+.subscribe-form .email-feedback {
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+.subscribe-form .error-msg {
+  display: none;
+  color: hsl(4, 100%, 67%);
+}
+.subscribe-form input,
+.subscribe-form button {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 6px;
+}
+.subscribe-form input {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  border: solid 1px hsl(231, 7%, 60%);
+}
+.subscribe-form button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(234, 29%, 20%);
+}
+
 /*# sourceMappingURL=styles.css.map */
