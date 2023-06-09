@@ -15,4 +15,27 @@ input {
   font-family: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.main.valid-email .subscribe {
+  display: none;
+  visibility: hidden;
+}
+.main.valid-email .message {
+  display: block;
+  visibility: visible;
+}
+
+.main .subscribe {
+  display: block;
+  visibility: visible;
+}
+.main .message {
+  display: none;
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=styles.css.map */

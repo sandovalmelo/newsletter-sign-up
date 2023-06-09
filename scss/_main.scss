@@ -1,0 +1,23 @@
+.main.valid-email {
+	.subscribe {
+		display: none;
+		visibility: hidden;
+	}
+
+	.message {
+		display: block;
+		visibility: visible;
+	}
+}
+
+.main {
+	.subscribe {
+		display: block;
+		visibility: visible;
+	}
+
+	.message {
+		display: none;
+		visibility: hidden;
+	}
+}
