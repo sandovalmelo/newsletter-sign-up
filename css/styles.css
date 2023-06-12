@@ -84,6 +84,7 @@ img {
   height: 3rem;
   border: none;
   border-radius: 6px;
+  font-size: 0.9rem;
 }
 .subscribe-form input {
   margin-bottom: 1rem;
@@ -146,6 +147,39 @@ img {
     background: linear-gradient(to right, hsl(347, 99%, 66%), hsl(13, 99%, 62%));
     cursor: pointer;
   }
+}
+.message {
+  padding: 0 1.5rem;
+  padding-top: 10rem;
+}
+.message img {
+  margin-bottom: 1.5rem;
+}
+.message-title {
+  font-size: 2.75rem;
+  line-height: 1;
+  color: hsl(234, 29%, 20%);
+  margin-bottom: 1.5rem;
+}
+.message-text {
+  color: hsl(235, 18%, 26%);
+}
+.message-text span {
+  color: hsl(234, 29%, 20%);
+}
+.message .btn {
+  background-color: hsl(234, 29%, 20%);
+  height: 3rem;
+  text-align: center;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9rem;
+  border-radius: 6px;
+  position: absolute;
+  display: block;
+  bottom: 2rem;
+  left: 1.5rem;
+  right: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
