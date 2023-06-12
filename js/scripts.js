@@ -25,6 +25,13 @@ form.addEventListener("submit", (event) => {
 			}, 2000);
 		} else {
 			main.classList.add("valid-email");
+			email.value = "";
 		}
 	}
+});
+
+const messageBtn = document.getElementById("message-btn");
+
+messageBtn.addEventListener("click", () => {
+	main.classList.remove("valid-email");
 });
