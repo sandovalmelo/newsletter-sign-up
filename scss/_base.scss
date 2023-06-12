@@ -3,6 +3,7 @@ $dark-grey: hsl(234, 29%, 20%);
 $charcoal: hsl(235, 18%, 26%);
 $grey: hsl(231, 7%, 60%);
 $white: hsl(0, 0%, 100%);
+$lg-screen: 897px;
 
 *,
 *::after,
@@ -14,6 +15,10 @@ $white: hsl(0, 0%, 100%);
 
 body {
 	font-family: "Roboto", sans-serif;
+
+	@media (min-width: $lg-screen) {
+		background-color: $charcoal;
+	}
 }
 
 button,
