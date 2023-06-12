@@ -95,6 +95,14 @@ img {
   color: hsl(0, 0%, 100%);
   background-color: hsl(234, 29%, 20%);
 }
+.subscribe-form form.not-valid .error-msg {
+  display: block;
+}
+.subscribe-form form.not-valid input {
+  border-color: hsl(4, 100%, 67%);
+  color: hsl(4, 100%, 67%);
+  background-color: hsla(4, 100%, 67%, 0.2);
+}
 
 @media (min-width: 897px) {
   .subscribe {

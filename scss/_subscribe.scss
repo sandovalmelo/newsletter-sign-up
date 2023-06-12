@@ -69,6 +69,18 @@
 			color: $white;
 			background-color: $dark-grey;
 		}
+
+		form.not-valid {
+			.error-msg {
+				display: block;
+			}
+
+			input {
+				border-color: $tomato;
+				color: $tomato;
+				background-color: $tomato-opacity;
+			}
+		}
 	}
 }
 
