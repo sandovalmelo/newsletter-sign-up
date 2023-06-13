@@ -87,7 +87,8 @@
 
 @media (min-width: $lg-screen) {
 	.subscribe {
-		max-width: 900px;
+		width: 100%;
+		max-width: 56.25rem;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1.5rem;
@@ -100,7 +101,8 @@
 		transform: translate(-50%, -50%);
 
 		&-title {
-			font-size: 3rem;
+			font-size: 3.25rem;
+			margin-bottom: 1.5rem;
 		}
 
 		li {

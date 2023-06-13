@@ -34,6 +34,11 @@ img {
   visibility: visible;
 }
 
+@media (max-width: 897px) and (orientation: landscape) {
+  .main.valid-email .message {
+    display: flex;
+  }
+}
 .main .message {
   display: none;
   visibility: hidden;
@@ -107,7 +112,8 @@ img {
 
 @media (min-width: 897px) {
   .subscribe {
-    max-width: 900px;
+    width: 100%;
+    max-width: 56.25rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
@@ -120,7 +126,8 @@ img {
     transform: translate(-50%, -50%);
   }
   .subscribe-title {
-    font-size: 3rem;
+    font-size: 3.25rem;
+    margin-bottom: 1.5rem;
   }
   .subscribe li img {
     margin-right: 1rem;
@@ -182,6 +189,19 @@ img {
   right: 1.5rem;
 }
 
+@media (max-width: 897px) and (orientation: landscape) {
+  .message {
+    padding-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .message .btn {
+    position: unset;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
 @media (min-width: 897px) {
   .message {
     background-color: hsl(0, 0%, 100%);

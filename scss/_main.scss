@@ -10,6 +10,14 @@
 	}
 }
 
+@media (max-width: $lg-screen) and (orientation: landscape) {
+	.main.valid-email {
+		.message {
+			display: flex;
+		}
+	}
+}
+
 .main {
 	.message {
 		display: none;
